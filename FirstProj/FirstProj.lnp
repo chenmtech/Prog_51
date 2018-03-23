@@ -1,0 +1,13 @@
+"STARTUP.obj",
+"main.obj",
+"yourapp.obj",
+".\hal_delay.obj",
+".\hal_lcd1602.obj",
+".\hal_timer.obj",
+".\hal_led.obj",
+".\hal_key.obj",
+".\hal_serial.obj",
+".\util_num2str.obj",
+".\sys_core.obj" 
+TO "FirstProj" 
+PRINT(".\Listings\FirstProj.m51") RAMSIZE(256) 
